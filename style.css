@@ -1,0 +1,315 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+body {
+    background-color: #fff7f5;
+}
+
+nav {
+    background-color: #f8d7da;
+}
+
+nav a {
+    color: #5c3a2e;
+}
+.hero {
+    display: flex;
+    /* aligne texte et image côte à côte */
+    align-items: center;
+    /* centre verticalement */
+    justify-content: space-between;
+    /* espace entre texte et image */
+    padding: 50px;
+    background-color: #fff0f5;
+    /* couleur douce pastel */
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #5c3a2e;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.hero-text button {
+    padding: 10px 20px;
+    background-color: #f8d7da;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-image img {
+    width: 400px;
+    /* tu peux ajuster selon ton image */
+    border-radius: 15px;
+}
+    #formations {
+            display: flex;
+            /* met les cards en ligne */
+            justify-content: center;
+            /* centre horizontalement */
+            gap: 20px;
+            /* espace entre les cards */
+            padding: 50px 0;
+            /* espace au-dessus et en-dessous */
+    }
+            
+            
+                .card {
+                    display: flex;
+                    flex-direction: column; /* met lr texte sous l'image*/
+                    background-color: palevioletred;
+                    color: brown;
+                    text-align: center;
+                    padding: 20px;
+                    border-radius: 10px;
+                    width: 220px;
+                    /* largeur fixe pour toutes les cards */
+                }
+            
+                .card img {
+                    width: 100%;
+                    /* image prend toute la largeur de la card */
+                    height: auto;
+                    /* garde les proportions */
+                    border-radius: 5px;
+                }
+            
+                .voir-details {
+                    margin-top: 10px;
+                    padding: 20px;
+                    background-color: burlywood;
+                    color: pink;
+                    text-decoration: none;
+                    border-radius: 5px;
+                }
+        }
+    
+        .card {
+            display: flex;
+            background-color: palevioletred;
+            color: brown;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            width: 220px;
+            /* largeur fixe pour toutes les cards */
+        }
+    
+        .card img {
+            width: 100%;
+            /* image prend toute la largeur de la card */
+            height: auto;
+            /* garde les proportions */
+            border-radius: 5px;
+        }
+    
+        .voir-details {
+            margin-top: 10px;
+            padding: 20px;
+            background-color: burlywood;
+            color: pink;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #f8c8dc;
+}
+
+
+.hero {
+    display: flex;
+    /* aligne texte et image côte à côte */
+    align-items: center;
+    /* centre verticalement */
+    justify-content: space-between;
+    /* espace entre texte et image */
+    padding: 50px;
+    background-color: #fff0f5;
+    /* couleur douce pastel */
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #5c3a2e;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.hero-text button {
+    padding: 10px 20px;
+    background-color: #f8d7da;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-image img {
+    width: 200px;
+    /* tu peux ajuster selon ton image */
+    border-radius: 15px;
+}
+#formations {
+    display: flex;
+    /* met les cards en ligne */
+    justify-content: center;
+    /* centre horizontalement */
+    gap: 20px;
+    /* espace entre les cards */
+    padding: 50px 0;
+    /* espace au-dessus et en-dessous */
+}
+
+.card {
+    display: flex;
+    background-color: palevioletred;
+    color: brown;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    /* largeur fixe pour toutes les cards */
+}
+
+.card img {
+    width: 100%;
+    /* image prend toute la largeur de la card */
+    height: auto;
+    /* garde les proportions */
+    border-radius: 5px;
+}
+
+.voir-details {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: burlywood;
+    color: pink;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    color: black;
+
+
+}
+.vister {
+    background-color: burlywood;
+    color: pink;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+
+}
+.image-container {
+    display: flex;
+    /* aligne les images sur la même ligne */
+    gap: 20px;
+    /* espace entre les images */
+    justify-content: center;
+    /* centre les images horizontalement */
+    flex-wrap: wrap;
+    /* passe à la ligne si écran trop petit */
+    padding: 50px 0;
+    /* espace au-dessus et en-dessous */
+}
+
+.image-container img {
+    width: 300px;
+    /* largeur fixe de chaque image */
+    height: 200px;
+    /* hauteur uniforme */
+    object-fit: cover;
+    /* recadre l’image sans la déformer */
+    border-radius: 15px;
+    /* coins arrondis pour le style */
+    transition: transform 0.3s;
+    /* animation au survol */
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+    /* effet zoom au survol */
+}
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff0f5;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    color: #5c3a2e;
+    margin-bottom: 30px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    /* éléments empilés verticalement */
+    align-items: center;
+    gap: 15px;
+    /* espace entre les champs */
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact input,
+#contact select,
+#contact textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#contact textarea {
+    resize: none;
+    /* empêche de redimensionner le textarea */
+}
+
+#contact button.envoyer {
+    padding: 12px 25px;
+    background-color: #5c3a2e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+#contact button.envoyer:hover {
+    background-color: #e67e22;
+    transform: scale(1.05);
+    /* petit effet au survol */
+}
+footer {
+    background-color: #e67e22;
+    color:black;
+    margin: 5x;
+    font-size: 15px;
+    text-align: center;
+
+}
